@@ -1,0 +1,6 @@
+transformers
+torchaudio
+scipy
+ffmpeg-python
+accelerate
+datasets

@@ -1,0 +1,17 @@
+name: musicgen-demo
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchaudio
+  - pytorch-cuda=11.8  # Optional, only if you want GPU
+  - pip
+  - ffmpeg
+  - pip:
+      - transformers
+      - scipy
+      - accelerate
+      - datasets
